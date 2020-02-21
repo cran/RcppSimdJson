@@ -1,4 +1,44 @@
+2020-02-21  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.0.2
+
+2020-02-20  Dirk Eddelbuettel  <edd@debian.org>
+
+	* src/simdjson_example.cpp (validateJSON): Protect function body by
+	#define for sufficient C++17 standard
+	(cppVersion): New (internal) helper function returning C++ standard
+
+	* R/init.R (.onAttach): Flag older compiler on startup
+
+	* R/validateJSON.R (validateJSON): Wrap call in Sys.glob() to expand ~
+
+2020-02-13  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll minor version and date
+
+	* inst/include/simdjson.cpp: Synced with upstream
+	* inst/include/simdjson.h: Idem
+
+	* inst/NEWS.Rd: Added
+
+2020-02-12  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Correct two badge URLs now that the package is on CRAN,
+	mention performance impact of turning computed GOTOs off
+
+2020-01-27  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll minor version and date
+
+	* src/Makevars: Use #define to deactivate compiled GOTO
+
+	* inst/include/simdjson.cpp: Synced with upstream
+	* inst/include/simdjson.h: Idem
+
 2020-01-25  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/include/simdjson.h: Comment-out #define for
+	SIMDJSON_USE_COMPUTED_GOTO to suppress one -pedantic message
 
 	* tests/tinytest.R: Added tinytest support
 	* inst/tinytest/test_validation.R: Ditt

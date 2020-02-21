@@ -2,8 +2,8 @@ Package: RcppSimdJson
 Type: Package
 Title: 'Rcpp' Bindings for the 'simdjson' Header-Only Library for
         'JSON' Parsing
-Version: 0.0.1
-Date: 2020-01-25
+Version: 0.0.2
+Date: 2020-02-21
 Author: Dirk Eddelbuettel
 Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: The 'JSON' format is ubiquitous for data interchange, and the
@@ -22,6 +22,6 @@ LinkingTo: Rcpp
 Suggests: tinytest
 RoxygenNote: 7.0.2
 NeedsCompilation: yes
-Packaged: 2020-01-25 23:02:02.1361 UTC; edd
+Packaged: 2020-02-21 12:50:59.790636 UTC; edd
 Repository: CRAN
-Date/Publication: 2020-02-12 10:10:02 UTC
+Date/Publication: 2020-02-21 17:00:02 UTC

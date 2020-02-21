@@ -5,3 +5,7 @@
     .Call(`_RcppSimdJson_validateJSON`, filename)
 }
 
+.cppVersion <- function() {
+    .Call(`_RcppSimdJson_cppVersion`)
+}
+
