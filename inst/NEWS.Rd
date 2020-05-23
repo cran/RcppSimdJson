@@ -3,6 +3,14 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/rcppsimdjson/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/rcppsimdjson/issues/#1}{##1}}
 
+\section{Changes in version 0.0.5 (2020-05-23)}{
+  \itemize{
+    \item Add \code{parseExample} from earlier upstream announcement (Dirk).
+    \item Synced with upstream (Brendan in \ghpr{12}) closing \ghit{11}).
+    \item Updated example \code{parseExample} to API changes (Brendan).
+  }
+}
+
 \section{Changes in version 0.0.4 (2020-04-03)}{
   \itemize{
     \item Upgraded to new upstream releases 0.3 and 0.3.1 (Dirk in \ghpr{9}

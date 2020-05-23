@@ -60,15 +60,15 @@ Or in chart form:
 Note that these timings came from the very beginnings of the package.
 Admittance to CRAN meant turning off one particular optimisation ('computed
 GOTOs') by default resulting in slightly slower performance. You can get the
-behaviour back locally by removing the `#define` from
-[src/Makevars](https://github.com/eddelbuettel/rcppsimdjson/blob/master/src/Makevars#L5).
+behaviour back locally by removing the `-DSIMDJSON_NO_COMPUTED_GOTO` term from
+[src/Makevars.in](https://github.com/eddelbuettel/rcppsimdjson/blob/master/src/Makevars.in#L5).
 
 ### Status
 
 Minimally viable. Right now it builds, wraps the validation test, and checks
-cleanly as an R package.  And while on CRAN it is still highly incomplete.
-Requires a C++17 compiler. Expect changes. But please feel free to
-contribute.
+cleanly as an R package. As of version 0.0.4, basic parsing is supported, see
+`parseExample()`.  Requires a C++17 compiler. Expect changes. But please feel
+free to contribute.
 
 ### Contributing
 
