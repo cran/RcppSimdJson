@@ -3,6 +3,20 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/rcppsimdjson/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/rcppsimdjson/issues/#1}{##1}}
 
+\section{Changes in version 0.1.0 (2020-07-07)}{
+  \itemize{
+    \item Upgraded to simdjson 0.4.1 which adds upstream Windows support
+    (Dirk in \ghpr{27} closing \ghit{26} and \ghit{14}, plus extensive
+    work by Brendan helping upstream with mingw tests).
+    \item Upgraded to simdjson 0.4.6 with further upstream improvements
+    (Dirk in \ghpr{30}).
+    \item Change Travis CI to build matrix over g++ 7, 8, 9, and 10
+    (Dirk in \ghpr{31}; and also Brendan in \ghpr{32}).
+    \item New JSON functions \code{fparse} and \code{fload} 
+    (Brendan in \ghpr{32}) closing \ghit{18} and \ghit{10}).
+  }
+}
+    
 \section{Changes in version 0.0.6 (2020-06-25)}{
   \itemize{
     \item Created C++ integer-handling utilities for safe downcasting
@@ -11,7 +25,7 @@
     \code{.load_json} (Brendan in \ghpr{16}, \ghpr{17}, \ghpr{20}, \ghpr{21}).
     \item Upgrade Travis CI to 'bionic', extract package and version
     from \code{DESCRIPTION} (Dirk in \ghpr{23}).
-    \item Upgraded to simdjson 0.4.0 (Dirk in \ghpr{25} closng \ghit{24}).
+    \item Upgraded to simdjson 0.4.0 (Dirk in \ghpr{25} closing \ghit{24}).
   }
 }
 
