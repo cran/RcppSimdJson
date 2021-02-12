@@ -1,6 +1,58 @@
+2021-02-12  Dirk Eddelbuettel  <edd@debian.org>
+
+        * DESCRIPTION (Version, Date): Release 0.1.4
+
+	* README.md: Update/replace two URLs
+	* .Rbuildignore: Add .github
+
+2021-02-10  Dirk Eddelbuettel  <edd@debian.org>
+
+        * DESCRIPTION (Version, Date): Roll version and date
+
+2021-02-10  Brendan Knapp  <brendan.g.knapp@gmail.com>
+
+        * R/fparse (fparse): Add always_list parameter.
+        * R/fload (fload): Ditto
+        * man/fparse.Rd: Document always_list use
+        * inst/tinytest/test_issues.R Test always_list
+
+2021-01-29  Dirk Eddelbuettel  <edd@debian.org>
+
+        * DESCRIPTION (Version, Date): Roll version and date
+
+2020-12-09  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml: Simplified setup
+	* .github/workflows/covr.yaml: Coverage in separate file
+
+	* README.md: Minor edits, added GitHub Actions CI badge
+	* DESCRIPTION: Minor edits
+
+2020-12-08  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml: Use GitHub Actions for CI
+
+2020-12-07  Dirk Eddelbuettel  <edd@debian.org>
+
+	* R/fload.R (fload): Use ... instead of explicit header argument
+	* R/utils.R (.prep_input): Support ... use
+	* man/fparse.Rd: Document ... use
+
+2020-12-04  Dirk Eddelbuettel  <edd@debian.org>
+
+        * DESCRIPTION (Version, Date): Roll version and date
+
+	* R/fload.R (fload): Additional argument 'headers' to pass API headers
+	* R/utils.R (.prep_input): Idem, passes 'headers' on to curl
+	* man/fparse.Rd: Document option
+
 2020-11-01  Dirk Eddelbuettel  <edd@debian.org>
 
         * DESCRIPTION (Version, Date): Release 0.1.3
+
+	* inst/tinytest/test_compressed_files.R: Add library(RcppSimdJson) to
+	make file self-contained; add temporary directory checks
+	* inst/tinytest/test_issues.R: Add temporary directory checks
 
 2020-11-01  Brendan Knapp  <brendan.g.knapp@gmail.com>
 

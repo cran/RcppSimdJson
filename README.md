@@ -1,6 +1,7 @@
 ## RcppSimdJSON: Rcpp Bindings for the simdjson Header Library
 
 [![Build Status](https://travis-ci.org/eddelbuettel/rcppsimdjson.svg)](https://travis-ci.org/eddelbuettel/rcppsimdjson)
+[![CI](https://github.com/eddelbuettel/rcppsimdjson/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppsimdjson/actions?query=workflow%3Aci)
 [![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 [![CRAN](https://www.r-pkg.org/badges/version/RcppSimdJson)](https://cran.r-project.org/package=RcppSimdJson)
 [![Dependencies](https://tinyverse.netlify.com/badge/RcppSimdJson)](https://cran.r-project.org/package=RcppSimdJson)
@@ -11,7 +12,7 @@
 ### Motivation
 
 [simdjson](https://github.com/simdjson/simdjson) by [Daniel Lemire](https://lemire.me/en/) (with contributions by [Geoff
-Langdale](https://twitter.com/geofflangdale),  [John Keiser](https://github.com/jkeiser) and  [many others](https://github.com/simdjson/simdjson/graphs/contributors)) is an
+Langdale](https://branchfree.org/),  [John Keiser](https://github.com/jkeiser) and  [many others](https://github.com/simdjson/simdjson/graphs/contributors)) is an
 engineering marvel.  Through very clever use of [SIMD instructions](https://en.wikipedia.org/wiki/SIMD),
 it manages to parse JSON files faster than disc access. Wut? Yes you read that right: parallel
 processing with so little overhead that the net throughput is limited only by disk speed.
@@ -53,11 +54,6 @@ Or in chart form:
 
 ![](https://eddelbuettel.github.io/rcppsimdjson/rcppsimdjson_parse_benchmark.png)
 
-Admittance to CRAN meant turning off one particular optimisation ('computed
-GOTOs') by default resulting in slightly slower performance. You can get the
-behaviour back locally by removing the `-DSIMDJSON_NO_COMPUTED_GOTO` term from
-[src/Makevars.in](https://github.com/eddelbuettel/rcppsimdjson/blob/master/src/Makevars.in#L5).
-
 ### Status
 
 As of version 0.1.0, all three major OSs are supported, and JSON can be parsed from file and string
@@ -82,7 +78,7 @@ For standard JSON work on R, as well as for other nicely done C++ libraries, con
 - [jsonlite](https://cran.r-project.org/package=jsonlite) by [Jeroen
   Ooms](https://github.com/jeroen) is excellent, very versatile, and probably most-widely used;
 - [rapidjsonr](https://cran.r-project.org/package=rapidjsonr) and [jsonify](https://cran.r-project.org/package=jsonify) by [David
-  Cooley](https://twitter.com/_davecooley) bringing [RapidJSON](https://rapidjson.org/) to R;
+  Cooley](https://github.com/dcooley) bringing [RapidJSON](https://rapidjson.org/) to R;
 - [ndjson](https://cran.r-project.org/package=ndjson) by [Bob Rudis](https://rud.is/b/) builds on the
   [JSON for Modern C++](https://github.com/nlohmann/json) library by [Niels
   Lohmann](https://github.com/nlohmann);

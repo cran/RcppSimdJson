@@ -16,6 +16,8 @@
 #' @param compressed_download Whether to request server-side compression on
 #'   the downloaded document, default: \code{FALSE}
 #'
+#' @param ... Optional arguments which can be use \emph{e.g.} to pass additional
+#' header settings
 #'
 #' @examples
 #' # load JSON files ===========================================================
@@ -61,10 +63,12 @@ fload <- function(json,
                   max_simplify_lvl = c("data_frame", "matrix", "vector", "list"),
                   type_policy = c("anything_goes", "numbers", "strict"),
                   int64_policy = c("double", "string", "integer64", "always"),
+                  always_list = FALSE,
                   verbose = FALSE,
                   temp_dir = tempdir(),
                   keep_temp_files = FALSE,
-                  compressed_download = FALSE) {
+                  compressed_download = FALSE,
+                  ...) {
     # validate arguments =======================================================
     if (!.is_valid_json_arg(json)) {
         stop("`json=` must be a non-empty character vector, raw vector, or a list containing raw vectors.")
@@ -82,6 +86,9 @@ fload <- function(json,
     }
     if (!.is_scalar_lgl(query_error_ok)) {
         stop("`query_error_ok=` must be either `TRUE` or `FALSE`.")
+    }
+    if (!.is_scalar_lgl(always_list)) {
+        stop("`always_list=` must be either `TRUE` or `FALSE`.")
     }
     if (!.is_scalar_lgl((verbose))) {
         stop("`verbose=` must be either `TRUE` or `FALSE`.")
@@ -157,7 +164,8 @@ fload <- function(json,
     diagnosis <- .prep_input(json,
                              temp_dir = temp_dir,
                              compressed_download = compressed_download,
-                             verbose = verbose)
+                             verbose = verbose,
+                             ...)
     if (!keep_temp_files) {
         on.exit(unlink(diagnosis$input[diagnosis$is_from_url]), add = TRUE)
     }
@@ -172,7 +180,7 @@ fload <- function(json,
     }
 
     # load =====================================================================
-    .load_json(
+    out <- .load_json(
         json = input,
         query = query,
         empty_array = empty_array,
@@ -186,4 +194,10 @@ fload <- function(json,
         type_policy = type_policy,
         int64_r_type = int64_policy
     )
+
+    if (always_list && length(json) == 1L) {
+        `names<-`(list(out), names(json))
+    } else {
+        out
+    }
 }
