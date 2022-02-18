@@ -1,5 +1,5 @@
-315e1674cb5acc247a21fd2ba19fc3ad *ChangeLog
-ff47c43933bdc152811a040cd102475a *DESCRIPTION
+3c7284ba46305ff6d780126ef0f96fa6 *ChangeLog
+b81f32333c8624fc9c8a310a77a61048 *DESCRIPTION
 17c240883173bcc000a61bbe74467acf *NAMESPACE
 4ff474a95cab114cd6771492fdb449a4 *R/RcppExports.R
 a150de608f448020100bcf609f72d77e *R/exported-utils.R
@@ -8,8 +8,8 @@ a150de608f448020100bcf609f72d77e *R/exported-utils.R
 0063e797c29aa42e3300fea2c53ded5f *R/init.R
 90eda11308544db6eb6cf72f5082f563 *R/utils.R
 3ee45f724c5aff6e732bd342288ff7f5 *R/validateJSON.R
-35f48484e2a84f10a4687866dd8d5670 *README.md
-d09e5780a4430650f65ef194b8f7cdfd *build/partial.rdb
+e8618fcddf234961ed4d8fa6787ae06e *README.md
+5948cb1499c355fdc255354dca43669e *build/partial.rdb
 1b3eea0da2d03a8f9c55c3cde0816966 *cleanup
 3e53cd3523bb80151482366f2052d58e *configure
 4eddcd7c3dd6102b59bb38e187ad31ef *demo/00Index
@@ -62,7 +62,7 @@ a7e6216d418d1375d9c24bff58350db4 *inst/tinytest/test_int64.R
 b723f3026f26c74f37075644897f0e81 *inst/tinytest/test_load_json.R
 59bc0234d27fe95d43f9e03a4741e0ec *inst/tinytest/test_misc.R
 cd904590b752dc4b268a9b8fa375068e *inst/tinytest/test_query.R
-09ba0523131ea4a484007b8cfc8a198a *inst/tinytest/test_simdjson_utils.R
+577f4eddaef48005afe131a6b42c2859 *inst/tinytest/test_simdjson_utils.R
 9ff7586e1a06e6b7b9439d3486bbfa77 *inst/tinytest/test_validation.R
 e1362b694ae7479d293978c2b37b0f4a *inst/tinytest/test_vectorized_ops.R
 d69b7f6c4c31ae575ef58bd534f6c9e4 *man/RcppSimdJson-package.Rd
