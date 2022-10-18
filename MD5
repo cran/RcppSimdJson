@@ -1,5 +1,5 @@
-3c7284ba46305ff6d780126ef0f96fa6 *ChangeLog
-b81f32333c8624fc9c8a310a77a61048 *DESCRIPTION
+0c03d0df835f95733b050d3a5378eb62 *ChangeLog
+cf86cdaa39066ac1f07daa2159244431 *DESCRIPTION
 17c240883173bcc000a61bbe74467acf *NAMESPACE
 4ff474a95cab114cd6771492fdb449a4 *R/RcppExports.R
 a150de608f448020100bcf609f72d77e *R/exported-utils.R
@@ -9,13 +9,13 @@ a150de608f448020100bcf609f72d77e *R/exported-utils.R
 90eda11308544db6eb6cf72f5082f563 *R/utils.R
 3ee45f724c5aff6e732bd342288ff7f5 *R/validateJSON.R
 e8618fcddf234961ed4d8fa6787ae06e *README.md
-5948cb1499c355fdc255354dca43669e *build/partial.rdb
+163766adbbe6d78c8aeff0f635f06e0f *build/partial.rdb
 1b3eea0da2d03a8f9c55c3cde0816966 *cleanup
 3e53cd3523bb80151482366f2052d58e *configure
 4eddcd7c3dd6102b59bb38e187ad31ef *demo/00Index
 d9e5a99f359025370777f79a8e815b27 *demo/simpleBenchmark.R
 0a75f05109143fec756b2588ba112fdd *demo/simpleParseBenchmark.R
-82f1afb8f9ff6fd647391fd303d9a4b3 *inst/NEWS.Rd
+e3ee510c6e3c5b4e305ef6c66a22950a *inst/NEWS.Rd
 b638b3b08925252a4e8b7c8d0a976ae3 *inst/include/RcppSimdJson.hpp
 0fa289233712128ad64a65a7b0a1acc0 *inst/include/RcppSimdJson/common.hpp
 b6c2eb000ca4a21040731203054ef7f5 *inst/include/RcppSimdJson/deserialize.hpp
@@ -27,7 +27,7 @@ bd1683a2a3da15e23c47e7392d4e0966 *inst/include/RcppSimdJson/deserialize/scalar.h
 a48b8d09b5a09100d68f3d0f341260d3 *inst/include/RcppSimdJson/deserialize/vector.hpp
 357ca262a62630918bdee40b607e26ae *inst/include/RcppSimdJson/utils.hpp
 343c587d883b773f93f3aebe0e2f9619 *inst/include/simdjson.cpp
-98a6d904898e6dda3ade7b4ee7787189 *inst/include/simdjson.h
+4d9d1830ff7e257d973ad834abda1217 *inst/include/simdjson.h
 1367166bf1f7453a5c86b8347a4c989b *inst/jsonexamples/amazon_cellphones.ndjson
 1474c80003db5de2c059125dad7fb1fc *inst/jsonexamples/apache_builds.json
 df5784697454e846bf48fb6c2e0e4543 *inst/jsonexamples/github_events.json
