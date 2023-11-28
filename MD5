@@ -1,7 +1,7 @@
-0a719fb7a45c5fbaa235e07c8a365684 *ChangeLog
-bd993ffa66dcda2d3cbcc945ba8a0428 *DESCRIPTION
+31c067cd67d1eba6684c7053f6eb253c *ChangeLog
+38804aa380e0e00a10be0786a030f23f *DESCRIPTION
 17c240883173bcc000a61bbe74467acf *NAMESPACE
-353e820f6b09dc6f0acb7a3fa5c9cbd0 *R/RcppExports.R
+d990363418aa1dbcd2c498f7b9cecce8 *R/RcppExports.R
 a150de608f448020100bcf609f72d77e *R/exported-utils.R
 5e1bc904ff441b5344e25a725a05226f *R/fload.R
 e1eae636b974eeae70014877e4d0f26f *R/fparse.R
@@ -9,12 +9,12 @@ e1eae636b974eeae70014877e4d0f26f *R/fparse.R
 0a0ad823e9d8b8173f06fbdb48e2f87b *R/utils.R
 21b24fdc645536e22edd5d1e836a38ca *R/validateJSON.R
 7dc482abe781a0cae7cb68bb09b5d3d3 *README.md
-cc9a0c7e2f43150c1c88b9ee0f84c828 *build/partial.rdb
+900120520a9935cf334d56cd376e4b0f *build/partial.rdb
 314cee712fb09b8346fe804ccb77076d *cleanup
 4eddcd7c3dd6102b59bb38e187ad31ef *demo/00Index
 d9e5a99f359025370777f79a8e815b27 *demo/simpleBenchmark.R
 0a75f05109143fec756b2588ba112fdd *demo/simpleParseBenchmark.R
-87b3e232cc24fd0987fc7e7a4cdeceb1 *inst/NEWS.Rd
+62034f9476de41d0f7fcae7da8cad0bd *inst/NEWS.Rd
 d3b90e61eb001c9e3610c1e90ec2c35c *inst/include/RcppSimdJson.h
 b638b3b08925252a4e8b7c8d0a976ae3 *inst/include/RcppSimdJson.hpp
 0fa289233712128ad64a65a7b0a1acc0 *inst/include/RcppSimdJson/common.hpp
@@ -73,7 +73,7 @@ d69b7f6c4c31ae575ef58bd534f6c9e4 *man/RcppSimdJson-package.Rd
 e7b1c2128b7800f49c2e09a86e5f0fbb *man/validateJSON.Rd
 a01ea7943106e2edfa1e17965b872a5b *src/Makevars
 a01ea7943106e2edfa1e17965b872a5b *src/Makevars.win
-de91b780fcc77a252887d33349c1d4ec *src/RcppExports.cpp
+112d847f49f4c2c3439ed6059a878230 *src/RcppExports.cpp
 c58c9e4111df0de129f22cefb8a9318f *src/deserialize.cpp
 cf0f58e87dc13b516a27f859fa86a9fb *src/exported-utils.cpp
 c09c8eb8e59baea32278af8c1f9e2fde *src/internal-utils.cpp
