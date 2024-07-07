@@ -3,10 +3,18 @@
 \newcommand{\ghpr}{\href{https://github.com/eddelbuettel/rcppsimdjson/pull/#1}{##1}}
 \newcommand{\ghit}{\href{https://github.com/eddelbuettel/rcppsimdjson/issues/#1}{##1}}
 
+\section{Changes in version 0.1.12 (2024-07-05)}{
+  \itemize{
+    \item Updated benchmarks now include `yyjsonr`
+    \item \pkg{simdjson} was upgraded to version 3.95 (Daniel in \ghpr{92}
+    fixing \ghit{91})
+  }
+}
+
 \section{Changes in version 0.1.11 (2023-11-28)}{
   \itemize{
-    \item \code{RcppExports.cpp} has been regenerated under an update
-    \pkg{Rcpp} to address a \code{print} format warning (Dirk in \ghpr{88}).
+    \item \code{RcppExports.cpp} has been regenerated under an updated
+    \pkg{Rcpp} to address a \code{printf} format warning (Dirk in \ghpr{88}).
   }
 }
 

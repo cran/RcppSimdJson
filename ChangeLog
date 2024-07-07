@@ -1,3 +1,30 @@
+2024-07-06  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 0.1.12
+
+	* DESCRIPTION (Description): Use <doi:/> for arXiv link
+
+2024-07-05  Daniel Lemire  <daniel@lemire.me>
+
+	* inst/include/simdjson.cpp: Updated to simdjson 3.9.5
+	* inst/include/simdjson.h: Idem
+
+2024-06-29  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml (jobs): Update to r-ci-setup action
+
+2024-05-17  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Use tinyverse.netlify.app for dependency badge
+
+2024-01-17  Dirk Eddelbuettel  <edd@debian.org>
+
+        * demo/simpleBenchmark.R: Add new package `yyjsonr`, styled chart
+        * demo/simpleParseBenchmark.R: Idem
+	* docs/rcppsimdjson_benchmark.png: Updated chart
+	* docs/rcppsimdjson_parse_benchmark.png: Idem
+	* docs/rcppsimdjson_both_benchmarks.png: New compiste
+
 2023-11-28  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Release 0.1.11
@@ -5,6 +32,11 @@
 	* src/RcppExports.cpp: Regenerated under updated Rcpp to address
 	format string issue reported by R-devel
 	* R/RcppExports.R: Idem
+
+	* .codecov.yml: Added
+
+	* .github/workflows/ci.yaml (jobs): Use actions/checkout@v4
+	* .github/workflows/covr.yaml (jobs): Ditto
 
 2023-05-14  Dirk Eddelbuettel  <edd@debian.org>
 
