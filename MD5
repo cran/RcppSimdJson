@@ -1,5 +1,5 @@
-adbb207710f3a2eadd7886e960adbb4e *ChangeLog
-caa6adc55e1f27d06cbc6ea457826d3e *DESCRIPTION
+90d0242c4474fed3a046436d7c8093d3 *ChangeLog
+37b90ccdd90746882d33b6aa4a827044 *DESCRIPTION
 17c240883173bcc000a61bbe74467acf *NAMESPACE
 d990363418aa1dbcd2c498f7b9cecce8 *R/RcppExports.R
 a150de608f448020100bcf609f72d77e *R/exported-utils.R
@@ -9,9 +9,9 @@ e1eae636b974eeae70014877e4d0f26f *R/fparse.R
 0a0ad823e9d8b8173f06fbdb48e2f87b *R/utils.R
 21b24fdc645536e22edd5d1e836a38ca *R/validateJSON.R
 fba1bcb579e2adcb2e190ff3bb5c21f4 *README.md
-9d5138ffa15cec227b337dd4ee2497d2 *build/partial.rdb
+5b67075cd3f7d9af55dcdc0e8d41a05f *build/partial.rdb
 314cee712fb09b8346fe804ccb77076d *cleanup
-a1ef848e5d31ed4382c8aefe23203ad0 *inst/NEWS.Rd
+18404cde701262f6a6e6a70da66521dd *inst/NEWS.Rd
 05177016a8cf400bda05804bfea2e57f *inst/examples/simpleBenchmark.R
 52b6d87aa45a7147b6eb80944d22af06 *inst/examples/simpleParseBenchmark.R
 d3b90e61eb001c9e3610c1e90ec2c35c *inst/include/RcppSimdJson.h
@@ -26,8 +26,8 @@ fd6948ae7d68957cd4f280144a4e87ab *inst/include/RcppSimdJson/deserialize/scalar.h
 a48b8d09b5a09100d68f3d0f341260d3 *inst/include/RcppSimdJson/deserialize/vector.hpp
 357ca262a62630918bdee40b607e26ae *inst/include/RcppSimdJson/utils.hpp
 bace0322a78c2dd1cfc8d8e4dd41536d *inst/include/RcppSimdJson_RcppExports.h
-e2c7b9e583f0fb4e21d1e90310f73cd2 *inst/include/simdjson.cpp
-0d6a8f77642ffa28bfcf3060ec14e14f *inst/include/simdjson.h
+c5b7eee3ed57217d30ce39652af8b32b *inst/include/simdjson.cpp
+9004ca1a4cf4af4cb064cd11ce18f0f6 *inst/include/simdjson.h
 1367166bf1f7453a5c86b8347a4c989b *inst/jsonexamples/amazon_cellphones.ndjson
 1474c80003db5de2c059125dad7fb1fc *inst/jsonexamples/apache_builds.json
 df5784697454e846bf48fb6c2e0e4543 *inst/jsonexamples/github_events.json
