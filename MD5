@@ -1,5 +1,5 @@
-90d0242c4474fed3a046436d7c8093d3 *ChangeLog
-37b90ccdd90746882d33b6aa4a827044 *DESCRIPTION
+03193bb4b78b7903c412d0dd2007fc55 *ChangeLog
+fe661e92c3f59f81b7bdef118d0373a1 *DESCRIPTION
 17c240883173bcc000a61bbe74467acf *NAMESPACE
 d990363418aa1dbcd2c498f7b9cecce8 *R/RcppExports.R
 a150de608f448020100bcf609f72d77e *R/exported-utils.R
@@ -8,10 +8,10 @@ e1eae636b974eeae70014877e4d0f26f *R/fparse.R
 0063e797c29aa42e3300fea2c53ded5f *R/init.R
 0a0ad823e9d8b8173f06fbdb48e2f87b *R/utils.R
 21b24fdc645536e22edd5d1e836a38ca *R/validateJSON.R
-fba1bcb579e2adcb2e190ff3bb5c21f4 *README.md
-5b67075cd3f7d9af55dcdc0e8d41a05f *build/partial.rdb
+f1162515d51e38d28f8a4a3a8d1bef52 *README.md
+e8a1aba7a27641ebcae0da7a6678d7a1 *build/partial.rdb
 314cee712fb09b8346fe804ccb77076d *cleanup
-18404cde701262f6a6e6a70da66521dd *inst/NEWS.Rd
+74f2252866d6cfdab1f6b0cb1f8396b2 *inst/NEWS.Rd
 05177016a8cf400bda05804bfea2e57f *inst/examples/simpleBenchmark.R
 52b6d87aa45a7147b6eb80944d22af06 *inst/examples/simpleParseBenchmark.R
 d3b90e61eb001c9e3610c1e90ec2c35c *inst/include/RcppSimdJson.h
@@ -26,8 +26,8 @@ fd6948ae7d68957cd4f280144a4e87ab *inst/include/RcppSimdJson/deserialize/scalar.h
 a48b8d09b5a09100d68f3d0f341260d3 *inst/include/RcppSimdJson/deserialize/vector.hpp
 357ca262a62630918bdee40b607e26ae *inst/include/RcppSimdJson/utils.hpp
 bace0322a78c2dd1cfc8d8e4dd41536d *inst/include/RcppSimdJson_RcppExports.h
-c5b7eee3ed57217d30ce39652af8b32b *inst/include/simdjson.cpp
-9004ca1a4cf4af4cb064cd11ce18f0f6 *inst/include/simdjson.h
+55eed046191ef79f84c0a9f0208ad0d8 *inst/include/simdjson.cpp
+d47001ab1cc64332096f548e14e1b077 *inst/include/simdjson.h
 1367166bf1f7453a5c86b8347a4c989b *inst/jsonexamples/amazon_cellphones.ndjson
 1474c80003db5de2c059125dad7fb1fc *inst/jsonexamples/apache_builds.json
 df5784697454e846bf48fb6c2e0e4543 *inst/jsonexamples/github_events.json
@@ -70,9 +70,9 @@ d69b7f6c4c31ae575ef58bd534f6c9e4 *man/RcppSimdJson-package.Rd
 91dd16077413e5f20d5410a3ac48bf57 *man/parseExample.Rd
 2500b674d6aedb125896e96c3bbb770e *man/simdjson-utilities.Rd
 e7b1c2128b7800f49c2e09a86e5f0fbb *man/validateJSON.Rd
-a01ea7943106e2edfa1e17965b872a5b *src/Makevars
-a01ea7943106e2edfa1e17965b872a5b *src/Makevars.win
-112d847f49f4c2c3439ed6059a878230 *src/RcppExports.cpp
+ae737c7fb836b17a4b4e168a90b8a078 *src/Makevars
+ae737c7fb836b17a4b4e168a90b8a078 *src/Makevars.win
+1150623363828722065deecb1f3811f8 *src/RcppExports.cpp
 c58c9e4111df0de129f22cefb8a9318f *src/deserialize.cpp
 cf0f58e87dc13b516a27f859fa86a9fb *src/exported-utils.cpp
 c09c8eb8e59baea32278af8c1f9e2fde *src/internal-utils.cpp
